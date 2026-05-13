@@ -1,0 +1,43 @@
+{
+  "name": "ARIA Landmark Region Patterns",
+  "description": "Example base on W3C ARIA Authoring Practices",
+  "version": "1.0",
+  "keywords": [
+    "Landmark Regions",
+    "Accessible Rich Internet Applications",
+    "ARIA",
+    "WCAG"
+  ],
+  "homepage": "aria-landmark-region-patterns.github.io",
+  "author": "Jon Gunderson",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aria-landmark-region-patterns"
+  },
+  "licenses": [
+    {
+      "type": "MPL-2.0",
+      "url": "https://github.com/aria-landmark-region-patterns/LICENSE.md"
+    }
+  ],
+  "engines": {
+    "node": ">=6"
+  },
+  "readmeFilename": "README.md",
+  "gitHead": "641457dfeksdfj56jdljasdfb455ba2a65ce0c33ac411b7",
+  "main": "Gruntfile.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "license": "Mozilla Public License Version 2.0",
+  "dependencies": {
+    "gulp": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-install": "^1.1.0",
+    "nunjucks": "^3.2.4",
+    "stream": "^0.0.2"
+  }
+}
